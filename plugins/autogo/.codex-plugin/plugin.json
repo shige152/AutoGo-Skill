@@ -1,0 +1,30 @@
+{
+  "name": "autogo",
+  "version": "0.1.0",
+  "description": "用于在 Codex 中接入 AutoGo MCP 和 Android 自动化技能。",
+  "author": {
+    "name": "AutoGo"
+  },
+  "homepage": "https://github.com/shige152/AutoGo-Skill",
+  "repository": "https://github.com/shige152/AutoGo-Skill",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AutoGo",
+    "shortDescription": "在 Codex 中使用 AutoGo MCP 和 Android 自动化工具。",
+    "longDescription": "AutoGo 为 Codex 提供设备发现、ADB 调试、界面节点检查、项目运行、日志跟踪、截图、OCR、图像处理、虚拟屏幕等 Android 自动化工作流能力。",
+    "developerName": "AutoGo",
+    "category": "Engineering",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "列出当前 AutoGo 设备",
+      "运行 AutoGo 项目并跟踪日志",
+      "读取当前 Android 界面节点树"
+    ],
+    "brandColor": "#2563EB"
+  },
+  "mcpServers": "./.mcp.json"
+}

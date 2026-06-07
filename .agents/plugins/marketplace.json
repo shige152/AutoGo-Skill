@@ -1,0 +1,20 @@
+{
+  "name": "autogo-codex",
+  "interface": {
+    "displayName": "AutoGo Codex"
+  },
+  "plugins": [
+    {
+      "name": "autogo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/autogo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Engineering"
+    }
+  ]
+}
